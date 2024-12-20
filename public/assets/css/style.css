@@ -559,12 +559,17 @@ figure {
 
 .heading-section h3 {
   font-size: 40px;
+  color: #114AD6;
   font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline;
   position: relative;
 }
 
 .heading-section p {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: #EEC500;
 }
 
 .feature-text h3 {
@@ -1748,9 +1753,7 @@ figure {
 }
 
 /* about */
-#fh5co-about-section{
-  border-bottom: 5px solid #114AD6;
-}
+
 .fh5co-about {
   margin-bottom: 60px;
 }
@@ -1771,10 +1774,11 @@ figure {
   background: #fff;
   width: 90%;
   padding: 30px;
-  float: right;
+  left: 17px;
   margin-top: -5em;
   border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  
+  border-top-right-radius: 30px;
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1784,7 +1788,11 @@ figure {
   display: inline-block;
   margin-bottom: 20px;
 }
-
+.fh5co-about .about-text h3{
+  color: #114AD6;
+  font-weight: bold;
+  text-decoration: underline;
+}
 .fh5co-about .about-text span.posted_by {
   font-style: italic;
   color: rgba(0, 0, 0, 0.3);
