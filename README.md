@@ -1,2 +1,0 @@
-# rhwebsite
-rhwebsite codebase
